@@ -2,13 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Product Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-
   <body>
+    <header id="header">
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+        <section id="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+      </ul>
+    </section>
+    
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+      </ol>
+    </section>
+    
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <ul>
+        <li>Basic Plan: $10/month</li>
+        <li>Pro Plan: $20/month</li>
+        <li>Premium Plan: $30/month</li>
+      </ul>
+    </section>
+    
+    <section id="signup">
+      <h2>Sign Up</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" id="submit" value="Sign Up">
+      </form>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 Product Landing Page</p>
+    </footer>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <p>Hello World, we are software developers!</p>
     <script  src="js/index.js"></script>
   </body>
 </html>
